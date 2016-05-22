@@ -1,3 +1,14 @@
 {
-	"bootstrapped": true
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AngularJS",
+		"Emmet",
+		"Git",
+		"jQuery",
+		"Markdown Preview"
+	]
 }
