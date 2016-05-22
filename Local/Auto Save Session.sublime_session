@@ -290,60 +290,77 @@
 			"buffers":
 			[
 				{
-					"file": "/C/Users/WWD/Downloads/54361b910001fed400000000/app/Scope1.js",
+					"file": "/C/Users/WWD/Desktop/ddddd.js",
 					"settings":
 					{
-						"buffer_size": 178,
+						"buffer_size": 36,
 						"line_ending": "Windows"
 					}
 				},
 				{
-					"file": "/C/Users/WWD/git/yeomanAngular/app/views/about.html",
-					"settings":
-					{
-						"buffer_size": 279,
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/C/Users/WWD/AppData/Roaming/Sublime Text 3/README.md",
-					"settings":
-					{
-						"buffer_size": 864,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-					"settings":
-					{
-						"buffer_size": 54,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"contents": "'use strict';\n\n/**\n * @ngdoc function\n * @name yeomanAngularApp.controller:AboutCtrl\n * @description\n * # AboutCtrl\n * Controller of the yeomanAngularApp\n */\nangular.module('yeomanAngularApp')\n  .controller('AboutCtrl', function () {\n    this.awesomeThings = [\n      'HTML5 Boilerplate',\n      'AngularJS',\n      'Karma'\n    ];\n  });\n",
 					"file": "/C/Users/WWD/git/yeomanAngular/app/scripts/controllers/about.js",
-					"file_size": 334,
-					"file_write_time": 131083622927852084,
 					"settings":
 					{
-						"buffer_size": 334,
+						"buffer_size": 342,
 						"line_ending": "Unix"
 					}
 				}
 			],
-			"build_system": "",
+			"build_system": "Packages/Nodejs/Nodejs.sublime-build",
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/Nodejs/Nodejs.sublime-build",
+							""
+						],
+						[
+							"Packages/JSHint/JSHint.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Nodejs/Nodejs.sublime-build",
+						""
+					]
+				]
 			],
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 357.0,
-				"last_filter": "",
+				"height": 288.0,
+				"last_filter": "instal",
 				"selected_items":
 				[
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"dis",
+						"Package Control: Disable Package"
+					],
+					[
+						"java",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"gpsc",
+						"Git: Push Current Branch"
+					],
+					[
+						"q",
+						"Git: Quick Commit"
+					],
+					[
+						"gitall",
+						"Git: Add All"
+					],
 					[
 						"ins",
 						"Package Control: Install Package"
@@ -397,23 +414,11 @@
 						"Markdown Preview: Preview in Browser"
 					],
 					[
-						"java",
-						"Set Syntax: JavaScript"
-					],
-					[
-						"dis",
-						"Package Control: Disable Package"
-					],
-					[
 						"disa",
 						"Package Control: Disable Package"
 					],
 					[
 						"IN",
-						"Package Control: Install Package"
-					],
-					[
-						"insta",
 						"Package Control: Install Package"
 					],
 					[
@@ -437,10 +442,6 @@
 						"Git: Status"
 					],
 					[
-						"instal",
-						"Package Control: Install Package"
-					],
-					[
 						"i",
 						"Package Control: Install Package"
 					],
@@ -453,7 +454,7 @@
 						"Preferences: Browse Packages"
 					]
 				],
-				"width": 528.0
+				"width": 494.0
 			},
 			"console":
 			{
@@ -475,6 +476,9 @@
 			"expanded_folders":
 			[
 				"/C/Users/WWD/AppData/Roaming/Sublime Text 3",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/User",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.cache",
 				"/C/Users/WWD/git/yeomanAngular",
 				"/C/Users/WWD/git/yeomanAngular/app",
 				"/C/Users/WWD/git/yeomanAngular/app/views",
@@ -482,14 +486,21 @@
 			],
 			"file_history":
 			[
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.cache/01524fae79697630d0454ba3fabd9414",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Nodejs/Nodejs.sublime-build",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/User/Nodejs.sublime-settings",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Nodejs/Readme.md",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/README.md",
+				"/C/Users/WWD/git/yeomanAngular/app/views/about.html",
+				"/C/Users/WWD/Downloads/54361b910001fed400000000/app/Scope1.js",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/Nodejs/Nodejs.sublime-settings",
 				"/C/Users/WWD/Downloads/54361b910001fed400000000/app/Scope1.html",
 				"/C/Users/WWD/Downloads/54361b910001fed400000000/app/MVC4.html",
-				"/C/Users/WWD/git/yeomanAngular/app/views/about.html",
 				"/C/Users/WWD/Downloads/54361b910001fed400000000/app/MVC3.html",
 				"/C/Users/WWD/Downloads/54361b910001fed400000000/app/HelloAngular_MVC.html",
 				"/C/Users/WWD/Downloads/54361b910001fed400000000/app/HelloAngular_Directive.html",
 				"/C/Users/WWD/git/yeomanAngular/gulpfile.js",
-				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/README.md",
 				"/C/Users/WWD/git/yeomanAngular/app/index.html",
 				"/C/Users/WWD/git/yeomanAngular/app/scripts/app.js",
 				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/Autoprefixer/readme.md",
@@ -497,7 +508,7 @@
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 23.0
 			},
 			"find_in_files":
 			{
@@ -511,6 +522,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"nodejs",
+					"false"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -540,122 +553,36 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/C/Users/WWD/Downloads/54361b910001fed400000000/app/Scope1.js",
+							"file": "/C/Users/WWD/Desktop/ddddd.js",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 178,
+								"buffer_size": 36,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										36,
+										36
 									]
 								],
 								"settings":
 								{
+									"auto_complete": false,
 									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/C/Users/WWD/git/yeomanAngular/app/views/about.html",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 279,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										279,
-										279
-									]
-								],
-								"settings":
-								{
-									"auto_complete": false,
-									"syntax": "Packages/HTML/HTML.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/C/Users/WWD/AppData/Roaming/Sublime Text 3/README.md",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 864,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										764,
-										764
-									]
-								],
-								"settings":
-								{
-									"auto_complete": false,
-									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 315.0,
-								"zoom_level": 1.0
-							},
 							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 54,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										54,
-										54
-									]
-								],
-								"settings":
-								{
-									"auto_complete": true,
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
 							"type": "text"
 						}
 					]
@@ -665,32 +592,32 @@
 					"sheets":
 					[
 						{
-							"buffer": 4,
+							"buffer": 1,
 							"file": "/C/Users/WWD/git/yeomanAngular/app/scripts/controllers/about.js",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 334,
+								"buffer_size": 342,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										243,
-										256
+										250,
+										250
 									]
 								],
 								"settings":
 								{
-									"auto_complete": true,
+									"auto_complete": false,
 									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 4,
+							"stack_index": 1,
 							"type": "text"
 						}
 					]
@@ -698,7 +625,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 23.0
 			},
 			"input":
 			{
@@ -724,7 +651,7 @@
 				"cols":
 				[
 					0.0,
-					0.665627782725,
+					0.594390026714,
 					1.0
 				],
 				"rows":
@@ -734,6 +661,10 @@
 				]
 			},
 			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 216.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
@@ -746,12 +677,16 @@
 			{
 				"height": 100.0
 			},
+			"output.nodejs":
+			{
+				"height": 213.0
+			},
 			"pinned_build_system": "",
 			"position": "0,2,3,-1,-1,-1,-1,617,601,78,1257",
 			"project": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 42.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -789,7 +724,7 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 243.0,
+			"side_bar_width": 307.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{

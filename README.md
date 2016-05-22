@@ -47,6 +47,7 @@
 |AllAutocomplete|跨页内容可以自动补全工具|Y|
 |Gulp|Gulp 运行工具|Y|
 |HtmlBeautify|HTML格式化工具|Y|
+|Nodejs|sublime 中运行nodejs|Y|
 
 
 
