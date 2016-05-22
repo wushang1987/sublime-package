@@ -48,6 +48,8 @@
 |Gulp|Gulp 运行工具|Y|
 |HtmlBeautify|HTML格式化工具|Y|
 |Nodejs|sublime 中运行nodejs|Y|
+|bower|sublime 中运行bower|Y|
+|BracketHighlighter|折叠高亮显示插件|Y|
 
 
 

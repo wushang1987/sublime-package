@@ -9,6 +9,8 @@
 		"AngularJS",
 		"Autoprefixer",
 		"Bootstrap 3 Snippets",
+		"Bower",
+		"BracketHighlighter",
 		"ColorPicker",
 		"CSS Format",
 		"DocBlockr",

@@ -6,7 +6,7 @@
 		"/C/Users/WWD/AppData/Roaming/Sublime Text 3"
 	],
 	"last_version": 3114,
-	"last_window_id": 3,
+	"last_window_id": 6,
 	"log_indexing": false,
 	"settings":
 	{
@@ -29,17 +29,109 @@
 			},
 			"build_system_choices":
 			[
+				[
+					[
+						[
+							"Packages/Nodejs/Nodejs.sublime-build",
+							""
+						],
+						[
+							"Packages/JSHint/JSHint.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Nodejs/Nodejs.sublime-build",
+						""
+					]
+				]
 			],
 			"build_varint": "",
 			"command_palette":
 			{
 				"height": 392.0,
-				"last_filter": "gulp",
+				"last_filter": "test",
 				"selected_items":
 				[
 					[
+						"test",
+						"Snippet: QUnit test"
+					],
+					[
+						"filt",
+						"Snippet: .filter()"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"mpb",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"gu",
+						"Gulp"
+					],
+					[
+						"bow",
+						"Bower: Install"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
 						"gulp",
 						"Gulp"
+					],
+					[
+						"gul",
+						"Gulp"
+					],
+					[
+						"push",
+						"Git: Push Current Branch"
+					],
+					[
+						"gitq",
+						"Git: Quick Commit"
+					],
+					[
+						"gitadd",
+						"Git: Add All"
+					],
+					[
+						"dis",
+						"Package Control: Disable Package"
+					],
+					[
+						"java",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"gpsc",
+						"Git: Push Current Branch"
+					],
+					[
+						"q",
+						"Git: Quick Commit"
+					],
+					[
+						"gitall",
+						"Git: Add All"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
 					],
 					[
 						"pushc",
@@ -48,10 +140,6 @@
 					[
 						"qu",
 						"Git: Quick Commit"
-					],
-					[
-						"gitadd",
-						"Git: Add All"
 					],
 					[
 						"in",
@@ -82,31 +170,11 @@
 						"Set Syntax: CSS"
 					],
 					[
-						"mpb",
-						"Markdown Preview: Preview in Browser"
-					],
-					[
-						"java",
-						"Set Syntax: JavaScript"
-					],
-					[
-						"dis",
-						"Package Control: Disable Package"
-					],
-					[
 						"disa",
 						"Package Control: Disable Package"
 					],
 					[
 						"IN",
-						"Package Control: Install Package"
-					],
-					[
-						"insta",
-						"Package Control: Install Package"
-					],
-					[
-						"ins",
 						"Package Control: Install Package"
 					],
 					[
@@ -130,15 +198,7 @@
 						"Git: Status"
 					],
 					[
-						"instal",
-						"Package Control: Install Package"
-					],
-					[
 						"i",
-						"Package Control: Install Package"
-					],
-					[
-						"install",
 						"Package Control: Install Package"
 					],
 					[
@@ -168,15 +228,36 @@
 			"file_history":
 			[
 				"/C/Users/WWD/git/yeomanAngular/gulpfile.js",
-				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/README.md",
-				"/C/Users/WWD/git/yeomanAngular/app/index.html",
+				"/C/Users/WWD/Desktop/ddddd.js",
+				"/C/Users/WWD/git/yeomanAngular/app/styles/main.css",
+				"/C/Users/WWD/git/yeomanAngular/bower.json",
+				"/C/Users/WWD/git/yeomanAngular/bower_components/angular-ui-router/README.md",
 				"/C/Users/WWD/git/yeomanAngular/app/scripts/app.js",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/README.md",
+				"/C/Users/WWD/git/yeomanAngular/app/views/state2.list.html",
+				"/C/Users/WWD/git/yeomanAngular/app/views/state1.list.html",
+				"/C/Users/WWD/git/yeomanAngular/app/views/state2.html",
+				"/C/Users/WWD/git/yeomanAngular/app/views/state1.html",
+				"/C/Users/WWD/git/yeomanAngular/app/index.html",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.cache/01524fae79697630d0454ba3fabd9414",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Nodejs/Nodejs.sublime-build",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/User/Nodejs.sublime-settings",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Nodejs/Readme.md",
+				"/C/Users/WWD/git/yeomanAngular/app/views/about.html",
+				"/C/Users/WWD/Downloads/54361b910001fed400000000/app/Scope1.js",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/Nodejs/Nodejs.sublime-settings",
+				"/C/Users/WWD/Downloads/54361b910001fed400000000/app/Scope1.html",
+				"/C/Users/WWD/Downloads/54361b910001fed400000000/app/MVC4.html",
+				"/C/Users/WWD/Downloads/54361b910001fed400000000/app/MVC3.html",
+				"/C/Users/WWD/Downloads/54361b910001fed400000000/app/HelloAngular_MVC.html",
+				"/C/Users/WWD/Downloads/54361b910001fed400000000/app/HelloAngular_Directive.html",
 				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/Autoprefixer/readme.md",
 				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/Autoprefixer/test.css"
 			],
 			"find":
 			{
-				"height": 0.0
+				"height": 34.0
 			},
 			"find_in_files":
 			{
@@ -190,6 +271,14 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"partials",
+					" <div class=\"header\">\n      <div class=\"navbar navbar-default\" role=\"navigation\">\n        <div class=\"container\">\n          <div class=\"navbar-header\">\n\n            <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#js-navbar-collapse\">\n              <span class=\"sr-only\">Toggle navigation</span>\n              <span class=\"icon-bar\"></span>\n              <span class=\"icon-bar\"></span>\n              <span class=\"icon-bar\"></span>\n            </button>\n\n            <a class=\"navbar-brand\" href=\"#/\">yeomanAngular</a>\n          </div>\n\n          <div class=\"collapse navbar-collapse\" id=\"js-navbar-collapse\">\n\n            <ul class=\"nav navbar-nav\">\n              <li class=\"active\"><a href=\"#/\">Home</a></li>\n              <li><a ng-href=\"#/about\">About</a></li>\n              <li><a ng-href=\"#/\">Contact</a></li>\n            </ul>\n          </div>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"container\">\n    <div ng-view=\"\"></div>\n    </div>\n\n    <div class=\"footer\">\n      <div class=\"container\">\n        <p><span class=\"glyphicon glyphicon-heart\"></span> from the Yeoman team</p>\n      </div>\n    </div>",
+					"middleware: function (connect) {\n       return [connect().use('/bower_components',connect.static('./bower_components'))];\n     }",
+					"middleware: function (connect) {\n     //   return [connect().use('/bower_components',connect.static('./bower_components'))];\n     // }",
+					"serve",
+					"route",
+					"nodejs",
+					"false"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -206,13 +295,17 @@
 			},
 			"incremental_find":
 			{
-				"height": 0.0
+				"height": 23.0
 			},
 			"input":
 			{
 				"height": 31.0
 			},
 			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 216.0
+			},
 			"output.find_results":
 			{
 				"height": 0.0
@@ -223,12 +316,16 @@
 			},
 			"output.gulp_output":
 			{
+				"height": 324.0
+			},
+			"output.nodejs":
+			{
 				"height": 100.0
 			},
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 0.0
+				"height": 42.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -262,13 +359,13 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 243.0,
+			"side_bar_width": 246.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			}
 		},
-		"new_window_width": 640.0
+		"new_window_width": 917.0
 	},
 	"windows":
 	[
@@ -290,11 +387,35 @@
 			"buffers":
 			[
 				{
-					"file": "/C/Users/WWD/Desktop/ddddd.js",
+					"file": "/C/Users/WWD/git/yeomanAngular/app/scripts/app.js",
 					"settings":
 					{
-						"buffer_size": 36,
+						"buffer_size": 1513,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/C/Users/WWD/git/yeomanAngular/app/index.html",
+					"settings":
+					{
+						"buffer_size": 6610,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/C/Users/WWD/AppData/Roaming/Sublime Text 3/README.md",
+					"settings":
+					{
+						"buffer_size": 952,
 						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/WWD/git/yeomanAngular/gulpfile.js",
+					"settings":
+					{
+						"buffer_size": 5208,
+						"line_ending": "Unix"
 					}
 				},
 				{
@@ -329,13 +450,69 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 288.0,
-				"last_filter": "instal",
+				"height": 392.0,
+				"last_filter": "insta",
 				"selected_items":
 				[
 					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"gul",
+						"Gulp"
+					],
+					[
+						"kill",
+						"Gulp: Kill running tasks"
+					],
+					[
+						"gu",
+						"Gulp: Kill running tasks"
+					],
+					[
+						"gulp",
+						"Gulp: Kill running tasks"
+					],
+					[
+						"test",
+						"Snippet: QUnit test"
+					],
+					[
+						"filt",
+						"Snippet: .filter()"
+					],
+					[
 						"instal",
 						"Package Control: Install Package"
+					],
+					[
+						"mpb",
+						"Markdown Preview: Preview in Browser"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"bow",
+						"Bower: Install"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"push",
+						"Git: Push Current Branch"
+					],
+					[
+						"gitq",
+						"Git: Quick Commit"
+					],
+					[
+						"gitadd",
+						"Git: Add All"
 					],
 					[
 						"dis",
@@ -344,10 +521,6 @@
 					[
 						"java",
 						"Set Syntax: JavaScript"
-					],
-					[
-						"insta",
-						"Package Control: Install Package"
 					],
 					[
 						"gpsc",
@@ -366,20 +539,12 @@
 						"Package Control: Install Package"
 					],
 					[
-						"gulp",
-						"Gulp"
-					],
-					[
 						"pushc",
 						"Git: Push Current Branch"
 					],
 					[
 						"qu",
 						"Git: Quick Commit"
-					],
-					[
-						"gitadd",
-						"Git: Add All"
 					],
 					[
 						"in",
@@ -408,10 +573,6 @@
 					[
 						"css",
 						"Set Syntax: CSS"
-					],
-					[
-						"mpb",
-						"Markdown Preview: Preview in Browser"
 					],
 					[
 						"disa",
@@ -446,15 +607,11 @@
 						"Package Control: Install Package"
 					],
 					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
 						"bro",
 						"Preferences: Browse Packages"
 					]
 				],
-				"width": 494.0
+				"width": 528.0
 			},
 			"console":
 			{
@@ -476,21 +633,36 @@
 			"expanded_folders":
 			[
 				"/C/Users/WWD/AppData/Roaming/Sublime Text 3",
-				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages",
 				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/User",
 				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.cache",
 				"/C/Users/WWD/git/yeomanAngular",
 				"/C/Users/WWD/git/yeomanAngular/app",
+				"/C/Users/WWD/git/yeomanAngular/app/scripts",
+				"/C/Users/WWD/git/yeomanAngular/app/styles",
 				"/C/Users/WWD/git/yeomanAngular/app/views",
-				"/C/Users/WWD/Downloads/54361b910001fed400000000/app"
+				"/C/Users/WWD/git/yeomanAngular/bower_components/angular-ui-router",
+				"/C/Users/WWD/git/yeomanAngular/bower_components/angular-ui-router/release",
+				"/C/Users/WWD/git/yeomanAngular/bower_components/bootstrap/dist",
+				"/C/Users/WWD/git/yeomanAngular/bower_components/bootstrap/dist/css"
 			],
 			"file_history":
 			[
+				"/C/Users/WWD/git/yeomanAngular/gulpfile.js",
+				"/C/Users/WWD/Desktop/ddddd.js",
+				"/C/Users/WWD/git/yeomanAngular/app/styles/main.css",
+				"/C/Users/WWD/git/yeomanAngular/bower.json",
+				"/C/Users/WWD/git/yeomanAngular/bower_components/angular-ui-router/README.md",
+				"/C/Users/WWD/git/yeomanAngular/app/scripts/app.js",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/README.md",
+				"/C/Users/WWD/git/yeomanAngular/app/views/state2.list.html",
+				"/C/Users/WWD/git/yeomanAngular/app/views/state1.list.html",
+				"/C/Users/WWD/git/yeomanAngular/app/views/state2.html",
+				"/C/Users/WWD/git/yeomanAngular/app/views/state1.html",
+				"/C/Users/WWD/git/yeomanAngular/app/index.html",
 				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.cache/01524fae79697630d0454ba3fabd9414",
 				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Nodejs/Nodejs.sublime-build",
 				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/User/Nodejs.sublime-settings",
 				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Nodejs/Readme.md",
-				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/README.md",
 				"/C/Users/WWD/git/yeomanAngular/app/views/about.html",
 				"/C/Users/WWD/Downloads/54361b910001fed400000000/app/Scope1.js",
 				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
@@ -500,15 +672,12 @@
 				"/C/Users/WWD/Downloads/54361b910001fed400000000/app/MVC3.html",
 				"/C/Users/WWD/Downloads/54361b910001fed400000000/app/HelloAngular_MVC.html",
 				"/C/Users/WWD/Downloads/54361b910001fed400000000/app/HelloAngular_Directive.html",
-				"/C/Users/WWD/git/yeomanAngular/gulpfile.js",
-				"/C/Users/WWD/git/yeomanAngular/app/index.html",
-				"/C/Users/WWD/git/yeomanAngular/app/scripts/app.js",
 				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/Autoprefixer/readme.md",
 				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/Autoprefixer/test.css"
 			],
 			"find":
 			{
-				"height": 23.0
+				"height": 34.0
 			},
 			"find_in_files":
 			{
@@ -522,6 +691,17 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"cb",
+					"watch",
+					"main",
+					"paths",
+					"watch",
+					"partials",
+					" <div class=\"header\">\n      <div class=\"navbar navbar-default\" role=\"navigation\">\n        <div class=\"container\">\n          <div class=\"navbar-header\">\n\n            <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#js-navbar-collapse\">\n              <span class=\"sr-only\">Toggle navigation</span>\n              <span class=\"icon-bar\"></span>\n              <span class=\"icon-bar\"></span>\n              <span class=\"icon-bar\"></span>\n            </button>\n\n            <a class=\"navbar-brand\" href=\"#/\">yeomanAngular</a>\n          </div>\n\n          <div class=\"collapse navbar-collapse\" id=\"js-navbar-collapse\">\n\n            <ul class=\"nav navbar-nav\">\n              <li class=\"active\"><a href=\"#/\">Home</a></li>\n              <li><a ng-href=\"#/about\">About</a></li>\n              <li><a ng-href=\"#/\">Contact</a></li>\n            </ul>\n          </div>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"container\">\n    <div ng-view=\"\"></div>\n    </div>\n\n    <div class=\"footer\">\n      <div class=\"container\">\n        <p><span class=\"glyphicon glyphicon-heart\"></span> from the Yeoman team</p>\n      </div>\n    </div>",
+					"middleware: function (connect) {\n       return [connect().use('/bower_components',connect.static('./bower_components'))];\n     }",
+					"middleware: function (connect) {\n     //   return [connect().use('/bower_components',connect.static('./bower_components'))];\n     // }",
+					"serve",
+					"route",
 					"nodejs",
 					"false"
 				],
@@ -553,36 +733,365 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 2,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/C/Users/WWD/Desktop/ddddd.js",
+							"file": "/C/Users/WWD/git/yeomanAngular/app/scripts/app.js",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 36,
+								"buffer_size": 1513,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										36,
-										36
+										268,
+										268
 									]
 								],
 								"settings":
 								{
+									"BracketHighlighterBusy": false,
 									"auto_complete": false,
-									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+									"bh_regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 446.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/C/Users/WWD/git/yeomanAngular/app/index.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 6610,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										4965,
+										4965
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"auto_complete": false,
+									"bh_regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/HTML/HTML.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 960.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/C/Users/WWD/AppData/Roaming/Sublime Text 3/README.md",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 952,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										852,
+										852
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"auto_complete": false,
+									"bh_regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 537.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/C/Users/WWD/git/yeomanAngular/gulpfile.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5208,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2755,
+										2755
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"auto_complete": false,
+									"bh_regions":
+									[
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1302.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
 							"type": "text"
 						}
 					]
@@ -592,7 +1101,7 @@
 					"sheets":
 					[
 						{
-							"buffer": 1,
+							"buffer": 4,
 							"file": "/C/Users/WWD/git/yeomanAngular/app/scripts/controllers/about.js",
 							"semi_transient": false,
 							"settings":
@@ -617,7 +1126,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 4,
 							"type": "text"
 						}
 					]
@@ -651,7 +1160,7 @@
 				"cols":
 				[
 					0.0,
-					0.594390026714,
+					0.819130347772,
 					1.0
 				],
 				"rows":
@@ -675,14 +1184,14 @@
 			},
 			"output.gulp_output":
 			{
-				"height": 100.0
+				"height": 324.0
 			},
 			"output.nodejs":
 			{
-				"height": 213.0
+				"height": 100.0
 			},
 			"pinned_build_system": "",
-			"position": "0,2,3,-1,-1,-1,-1,617,601,78,1257",
+			"position": "0,2,3,-32000,-32000,-1,-1,691,412,152,1345",
 			"project": "",
 			"replace":
 			{
@@ -724,7 +1233,7 @@
 			"show_open_files": true,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 307.0,
+			"side_bar_width": 246.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
