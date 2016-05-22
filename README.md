@@ -46,6 +46,7 @@
 |SublimeCodeInter|让sublime 可以像IDE一样的工作，追踪代码|Y|
 |AllAutocomplete|跨页内容可以自动补全工具|Y|
 |Gulp|Gulp 运行工具|Y|
+|HtmlBeautify|HTML格式化工具|Y|
 
 
 
