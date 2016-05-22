@@ -1,6 +1,8 @@
 {
 	"ignored_packages":
 	[
+		"ESLint",
+		"JSLint",
 		"Vintage"
 	]
 }

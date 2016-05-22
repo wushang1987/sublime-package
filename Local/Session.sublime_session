@@ -1,8 +1,9 @@
 {
 	"folder_history":
 	[
+		"/C/Users/WWD/AppData/Roaming/Sublime Text 3"
 	],
-	"last_version": 3103,
+	"last_version": 3114,
 	"last_window_id": 1,
 	"log_indexing": false,
 	"settings":
@@ -19,6 +20,33 @@
 			},
 			"buffers":
 			[
+				{
+					"file": "/C/Users/WWD/AppData/Roaming/Sublime Text 3/README.md",
+					"settings":
+					{
+						"buffer_size": 583,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/Autoprefixer/readme.md",
+					"settings":
+					{
+						"buffer_size": 2755,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "Package Control Messages\n========================\n\nMarkdown Preview\n----------------\n\n  Sublime Text 2/3 Markdown Preview\n  =================================\n  \n  Preview and build your markdown files quickly in your web browser from sublime text 2/3. \n  \n  You can use builtin [python-markdown][10] parser or use the [github markdown API][5] for the conversion.\n  \n  **NOTE:** If you choose the GitHub API for conversion (set parser: github in your settings), your code will be sent through https to github for live conversion. You'll have [Github flavored markdown][6], syntax highlighting and EMOJI support for free :heart: :octocat: :gift:. If you make more than 60 calls a day, be sure to set your GitHub API key in the settings :). You can also get most of this in the default Markdown parser with by enabling certain extensions; see \"[Parsing Github Flavored Markdown](#parsing-github-flavored-markdown-)\"\" below for more information.\n  \n  **LINUX users:** If you want to use GitHub API for conversion, you'll need to have a custom Python install that includes python-ssl as its not built in the Sublime Text 2 Linux package. see [@dusteye comment][8]. If you use a custom window manager, also be sure to set a `BROWSER` environment variable. see [@PPvG comments][9]\n  \n  ## Features :\n  \n   - Markdown preview using the [Python-markdown][10] or the Github API just choose select the build commands.\n   - Syntax highlighting via Pygments. See \"[Configuring Pygments](#configuring-pygments)\" for more info.\n   - Build markdown file using Sublime Text build system. The build parser are config via the `\"parser\"` config.\n   - Browser preview auto reload on save if you have the [ST2 LiveReload plugin][7] installed.\n   - Builtin parser : supports `abbr`, `attr_list`, `def_list`, `fenced_code`, `footnotes`, `tables`, `smart_strong`, `smarty`,  `wikilinks`, `meta`, `sane_lists`, `codehilite`, `nl2br`, and `toc` markdown extensions.\n   - CSS search path for local and build-in CSS files (always enabled) and/or CSS overriding if you need\n   - YAML support thanks to @tommi\n   - Clipboard selection and copy to clipboard thanks to @hexatrope\n   - MathJax support : \\\\\\\\(\\frac{\\pi}{2}\\\\\\\\) thanks to @bps10\n   - HTML template customisation thanks to @hozaka\n   - Embed images as base64 (see [settings][settings] file for more info)\n   - Strip out multimarkdown critic marks from either Githubs or Python Markdown input source (see [settings][settings] file for more info)\n   - 3rd party extensions for the Python Markdown parser:\n  \n      | Extension | Documentation |\n      |-----------|---------------|\n      | magiclink | Find and convert HTML links and email address to links ([MagicLink Documentation](http://facelessuser.github.io/pymdown-extensions/extensions/magiclink/)). |\n      | delete | Surround inline text with `~~strike through~~` to get del tags ~~strike through~~. |\n      | insert | Surround inline text with `^^underlined^^` to get ins tags <ins>underlined</ins>. |\n      | tasklist | Github Flavored Markdown tasklists ([Tasklist Documentation](http://facelessuser.github.io/pymdown-extensions/extensions/tasklist/)). |\n      | githubemoji | Support for Github Flavored Markdown emojis ([GithubEmoji Documentation](http://facelessuser.github.io/pymdown-extensions/extensions/githubemoji/)). |\n      | headeranchor | Github Flavored Markdown style header anchors ([HeaderAnchor Documentation](http://facelessuser.github.io/pymdown-extensions/extensions/headeranchor/)). |\n      | github | A convenience extension to add: `magiclink`, `delete`, `tasklist`, `githubemoji`, `headeranchor`, `superfences`, and `nl2br` to parse and display Markdown in a github-ish way.  It is recommed to pair `github` with `extra` and `codehilite` (with language guessing off) to parse close to github's way.  Be aware of what extensions `github` loads, because you should not load extensions more than once. |\n      | progressbar | Create progress bars ([ProgressBar Documentation](http://facelessuser.github.io/pymdown-extensions/extensions/progressbar/)). |\n      | superfences | Allow fenced blocks to be nested under lists, blockquotes, etc. and add special UML diagram blocks ([SuperFences Documentation](http://facelessuser.github.io/pymdown-extensions/extensions/superfences/)). |\n  \n  ## Installation :\n  \n  ### Using [Package Control][3] (*Recommended*)\n  \n  For all Sublime Text 2/3 users we recommend install via [Package Control][3].\n  \n  1. [Install][11] Package Control if you haven't yet.\n  2. Use <kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>P</kbd> then `Package Control: Install Package`\n  3. Look for `Markdown Preview` and install it.\n  \n  ### Manual Install\n  \n  1. Click the `Preferences > Browse Packages…` menu\n  2. Browse up a folder and then into the `Installed Packages/` folder\n  3. Download [zip package][12] rename it to `Markdown Preview.sublime-package` and copy it into the `Installed Packages/` directory\n  4. Restart Sublime Text\n  \n  ## Usage :\n  \n  ### To preview :\n  \n   - optionally select some of your markdown for conversion\n   - use <kbd>cmd</kbd>+<kbd>shift</kbd>+<kbd>P</kbd> then `Markdown Preview` to show the follow commands (you will be prompted to select which parser you prefer):\n  	- Markdown Preview: Preview in Browser\n  	- Markdown Preview: Export HTML in Sublime Text\n  	- Markdown Preview: Copy to Clipboard\n  	- Markdown Preview: Open Markdown Cheat sheet\n   - or bind some key in your user key binding, using a line like this one:\n     `{ \"keys\": [\"alt+m\"], \"command\": \"markdown_preview\", \"args\": {\"target\": \"browser\", \"parser\":\"markdown\"} },` for a specific parser and target or `{ \"keys\": [\"alt+m\"], \"command\": \"markdown_preview_select\", \"args\": {\"target\": \"browser\"} },` to bring up the quick panel to select enabled parsers for a given target.\n   - once converted a first time, the output HTML will be updated on each file save (with LiveReload plugin)\n  \n  ### Enabling Other External Markdown Parsers :\n  \n  External parser commands and arguments should first be mapped to a name.  The path to the binary should be first, followed by flags etc.\n  \n  ```js\n      \"markdown_binary_map\": {\n          \"multimarkdown\": [\"/usr/local/bin/multimarkdown\"]\n      },\n  ```\n  \n  Then the name can be placed in `enabled_parsers` to enable use of the new parser.\n  \n  ```js\n      \"enabled_parsers\": [\"markdown\", \"github\", \"multimarkdown\"],\n  ```\n  \n  ### To build :\n  \n   - Just use <kbd>ctrl</kbd>+<kbd>B</kbd> (Windows/Linux) or <kbd>cmd</kbd>+<kbd>B</kbd> (Mac) to build current file.\n  \n  ### To config :\n  \n  Using Sublime Text menu: `Preferences`->`Package Settings`->`Markdown Preview`\n  \n  - `Settings - User` is where you change your settings for Markdown Preview.\n  - `Settings - Default` is a good reference with detailed descriptions for each setting.\n  \n  ### Configuring Pygments\n  If you add the codehilite extension manually in the enabled extensions, you can override some of the default settings.\n  \n  * Turn language guessing *on* or *off* (*on* will highlight fenced blocks even if you don't specify a language)  `codehilite(guess_lang=False)` (True|False).\n  * Show line numbers: `codehilite(linenums=True)` (True|False).\n  * Change the higlight theme: `codehilite(pygments_style=emacs)`.\n  * Inline the CSS: `codehilite(noclasses=True)` (True|False).\n  * Use multiple: `codehilite(linenums=True, pygments_style-emacs)`.\n  \n  See [codehilte page](https://pythonhosted.org/Markdown/extensions/code_hilite.html) for more info.\n  \n  ### Meta Data Support\n  When the `meta` extension is enabled (https://pythonhosted.org/Markdown/extensions/meta_data.html), the results will be written to the HTML head in the form `<meta name=\"key\" content=\"value1,value2\">`.  `title` is the one exception, and its content will be written to the title tag in the HTML head.\n  \n  ### YAML Frontmatter Support\n  YAML frontmatter can be stripped out and read when `strip_yaml_front_matter` is set to  `true` in the settings file.  In general the, the fronmatter is handled the same as [meta data](#meta-data-support), but if both exist in a file, the YAML keys will override the `meta` extension keys.  There are a few special keys names that won't be handled as html meta data.\n  \n  #### Special YAML Key Names\n  Yaml frontmatter has a few special key names that are used that will not be handled as meta data:\n  \n  - **basepath**: An absolute path to configure the relative paths for images etc. (for when the markdown is supposed to reference images in a different location.)\n  - **references**: Can take a file path or an array of file paths for separate markdown files containing references, footnotes, etc.  Can be an absolute path or relative path.  Relative paths first use the source file's directory, and if the file cannot be found, it will use the `basepath` setting.\n  - **destination**: This is an absolute file path or relative file path for when the markdown is saved to html via the build command or the `Save to HTML` command.  Relative paths first use the source file's directory, and if the file cannot be found, it will use the `basepath` setting.\n  - **settings**: This is a dictionary where you can override settings that are in the settings file.\n  \n  #### Example\n  ```yaml\n  ---\n      # Builtin values\n      references:\n          - references.md\n          - abbreviations.md\n          - footnotes.md\n  \n      destination: destination.html\n  \n      # Meta Data\n      title: Test Page\n      author:\n          - John Doe\n          - Jane Doe\n  \n      # Settings overrides\n      settings:\n          enabled_extensions:\n          - extra\n          - github\n          - toc\n          - headerid\n          - smarty(smart_quotes=False) # smart quotes interferes with attr_list\n          - meta\n          - wikilinks\n          - admonition\n          - codehilite(guess_lang=False,pygments_style=github)\n  ---\n  ```\n  \n  ### Parsing Github Flavored Markdown :\n  Github Flavored Mardown (GFM) is a very popular markdown.  Markdown Preview can actually handle them in a couple of ways: online and offline.\n  \n  #### Online :\n  Parsing GFM using the online method requires using the Github API as the parser.  It may also require setting `github_mode` to `gfm` to get things like tasklists to render properly.\n  \n  #### Offline :\n  By default almost all extensions are enabled to help with the github feel, but there are some tweaks needed to get the full experience.\n  \n  GFM does not auto guess language in fenced blocks, but Markdown Preview does this by default.  You can fix this in one of two ways:\n  \n  1. Disable auto language guessing in the settings file `\"guess_language\": false,`\n  2. Or if you are manually defining extensions: `\"enabled_extensions\": [\"codehilite(guess_lang=False,pygments_style=github)\"]`\n  \n  \n  As mentioned earlier, almost all extensions are enabled by default, but as a reference, the minimum extensions that should be enabled are listed below:\n  \n  ```javascript\n  	\"enabled_extensions\": [\n  		\"extra\",\n  		\"github\",\n  		\"codehilite(guess_lang=False,pygments_style=github)\"\n  	]\n  ```\n  \n  This may be further enhanced in the future.\n  \n  \n  ## Support :\n  \n  - Any bugs about Markdown Preview please feel free to report [here][issue].\n  - And you are welcome to fork and submit pullrequests.\n  \n  \n  ## License :\n  \n  The code is available at github [project][home] under [MIT licence][4].\n  \n   [home]: https://github.com/revolunet/sublimetext-markdown-preview\n   [3]: https://packagecontrol.io/\n   [4]: http://revolunet.mit-license.org\n   [5]: https://developer.github.com/v3/markdown/\n   [6]: https://help.github.com/articles/github-flavored-markdown/\n   [7]: https://github.com/dz0ny/LiveReload-sublimetext2\n   [8]: https://github.com/revolunet/sublimetext-markdown-preview/issues/27#issuecomment-11772098\n   [9]: https://github.com/revolunet/sublimetext-markdown-preview/issues/78#issuecomment-15644727\n   [10]: https://github.com/waylan/Python-Markdown\n   [11]: https://packagecontrol.io/installation\n   [12]: https://github.com/revolunet/sublimetext-markdown-preview/archive/master.zip\n   [issue]: https://github.com/revolunet/sublimetext-markdown-preview/issues\n   [settings]: https://github.com/revolunet/sublimetext-markdown-preview/blob/master/MarkdownPreview.sublime-settings\n\n\nEmmet\n-----\n\n  Thank you for installing Emmet -- a toolkit that can greatly improve your workflow. Note that this plugin automatically downloads and installs PyV8 binary (see status bar message). \n  \n  ******************************\n  Please restart editor \n  to finish installation process \n  after PyV8 was downloaded.\n  ******************************\n  \n  Tab key handler\n  ==========================\n  \n  By default, Emmet allows you to expand abbreviations with Tab key in HTML, XML, HAML and CSS/SASS/LESS/Stylus documents. As a side effect, you can’t use some of your ST2 snippets.\n  \n  Please read https://github.com/sergeche/emmet-sublime#tab-key-handler about how Tab handler works and how to tweak its behavior to match your needs.\n  \n  Enter key\n  ==========================\n  \n  In HTML and XML documents, Emmet overrides Enter key to insert formatted line breaks between opening and closing tags. In some cases it will break character input (for example, in Japanese language).\n  \n  To disable Enter key handler, simply add the following option in your user's Preferences file:\n  \n  \"disable_formatted_linebreak\": true\n  \n  Actions shortcuts\n  ==========================\n  \n  Emmet has a number of actions with keyboard shortcuts that may override ones you're using commonly (for example, Ctrl-E or Ctrl-Down). Please read the project main page to get list of available actions and keyboard shortcuts and how to disable them:\n  https://github.com/sergeche/emmet-sublime\n  \n  Documentation and examples:\n  http://emmet.io\n  \n  ------------------------------\n  Follow me on Twitter: @emmetio\n  ------------------------------\n\n\nGitGutter\n---------\n\n  Thanks for installing Git Gutter!!!\n  \n  👣 Follow me: @jisaacks\n  \n  \n  😍 Love Git Gutter? Want to support development?\n  \n  I've teamed up with Wes Bos to offer the following discounts:\n  \n  \n  --> $10 OFF Sublime Text Power User.\n  \n  Become amazing with Sublime Text with this book + video series. 📖📹\n  \n  👉 SublimeTextBook.com/friend/GITGUTTER\n  💰 Use the coupon code GITGUTTER for $10 off 💵\n  \n  \n  --> $10 OFF React for Beginners\n  \n  Upgrade your JavaScript skills. \n  Learn React.js in just a couple of afternoons. 📹\n  \n  👉 ReactForBeginners.com/friend/GITGUTTER\n  💰 Use the coupon code GITGUTTER for $10 off 💵\n  \n  \n  Join 3,000 other developers already learning React.js with Wes Bos.\n  \n  These are fantastic resources - 100% money back guarantee! 🌟\n\n\nCSS Format\n----------\n\n  Thank you for installing CSS Format!\n  \n  \n  Usage\n  -----\n  \n  Select the code, or place cursor in the document, and execute commands in one of the following ways:\n  \n  * Context Menu: CSS Format.\n  * Edit Menu: Edit > CSS Format.\n  * Command Panel: Open command panel: `Ctrl+Shift+P` (Linux/Windows) or `Cmd+Shift+P` (OS X) and select **CSS Format: XXX**.\n  \n  \n  Shortcuts\n  ---------\n  \n  By default CSS Format provides no keyboard shortcuts to avoid conflicts, but you can view the included `Example.sublime-keymaps` file to get an idea how to set up your own.\n  \n  \n  Author\n  ------\n  \n  Created by Mutian [http://mutian.info/].\n  For more info, you can send email to me: mutian@me.com!\n\n\nBootstrap 3 Snippets\n--------------------\n\n  ============================================================\n  Thank you for installing Bootstrap 3 Snippets\n  ============================================================\n  Follow me on Twitter: @JasonMortonNZ\n  ------------------------------------------------------------\n  \n  Bootstrap 3 snippets is a selection of snippets\n  that will greatly improve your workflow.\n  \n  This package is compatible with both Sublime\n  Text versions 2 & 3.\n  \n  Documentation, examples & issue filing can be found here:\n  https://github.com/JasonMortonNZ/bs3-sublime-plugin\n",
+					"settings":
+					{
+						"buffer_size": 16036,
+						"line_ending": "Windows",
+						"name": "Package Control Messages",
+						"read_only": true,
+						"scratch": true
+					}
+				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -27,18 +55,87 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 0.0,
-				"last_filter": "",
+				"height": 392.0,
+				"last_filter": "in",
 				"selected_items":
 				[
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"java",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"dis",
+						"Package Control: Disable Package"
+					],
+					[
+						"disa",
+						"Package Control: Disable Package"
+					],
+					[
+						"IN",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"git",
+						"Git: Status"
+					],
+					[
+						"gits",
+						"Git: Status"
+					],
+					[
+						"git push",
+						"Git: Push"
+					],
+					[
+						"git commit ",
+						"Git: Quick Commit"
+					],
+					[
+						"git add",
+						"Git: Add All"
+					],
+					[
+						"git status",
+						"Git: Status"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"i",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"bro",
+						"Preferences: Browse Packages"
+					]
 				],
-				"width": 0.0
+				"width": 472.0
 			},
 			"console":
 			{
-				"height": 0.0,
+				"height": 126.0,
 				"history":
 				[
+					"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 				]
 			},
 			"distraction_free":
@@ -50,6 +147,13 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
+			"expanded_folders":
+			[
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/Autoprefixer",
+				"/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/User"
+			],
 			"file_history":
 			[
 			],
@@ -83,11 +187,104 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"folders":
+			[
+				{
+					"path": "C:\\Users\\WWD\\AppData\\Roaming\\Sublime Text 3"
+				}
+			],
 			"groups":
 			[
 				{
+					"selected": 1,
 					"sheets":
 					[
+						{
+							"buffer": 0,
+							"file": "/C/Users/WWD/AppData/Roaming/Sublime Text 3/README.md",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 583,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										402,
+										402
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/C/Users/WWD/AppData/Roaming/Sublime Text 3/Packages/Autoprefixer/readme.md",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2755,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 16036,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										15918,
+										15918
+									]
+								],
+								"settings":
+								{
+									"auto_indent": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_width": 2,
+									"word_wrap": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 5217.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						}
 					]
 				}
 			],
@@ -97,7 +294,7 @@
 			},
 			"input":
 			{
-				"height": 0.0
+				"height": 31.0
 			},
 			"layout":
 			{
@@ -126,8 +323,12 @@
 			{
 				"height": 0.0
 			},
+			"output.git":
+			{
+				"height": 422.0
+			},
 			"pinned_build_system": "",
-			"position": "0,2,3,-1,-1,-1,-1,695,322,156,978",
+			"position": "0,2,3,-32000,-32000,-1,-1,617,601,78,1257",
 			"project": "",
 			"replace":
 			{

@@ -5,10 +5,23 @@
 	],
 	"installed_packages":
 	[
+		"All Autocomplete",
 		"AngularJS",
+		"Autoprefixer",
+		"Bootstrap 3 Snippets",
+		"ColorPicker",
+		"CSS Format",
+		"DocBlockr",
 		"Emmet",
+		"ESLint",
 		"Git",
+		"GitGutter",
 		"jQuery",
-		"Markdown Preview"
+		"JsFormat",
+		"JSHint",
+		"JSLint",
+		"LESS",
+		"Markdown Preview",
+		"SublimeCodeIntel"
 	]
 }
